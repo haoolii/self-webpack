@@ -91,9 +91,5 @@ npm i -D html-webpack-plugin
 
 麵包屑導覽列???????
 
-<<<<<<< HEAD
-###test2
+###test23
 
-=======
-### test
->>>>>>> a1af6fc65ed61b62cd8498ee2b8b359fd648ec6d
