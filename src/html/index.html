@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>  
+        <%= require('./partials/header.ejs')({name:'hello'}) %>
+              <main>
+                <h1>我是index</h1>
+                <a href="./main.html">main</a>
+                <img width="300" src="<%= require('../images/image.png')%>" alt="">
+              </main>
+              <footer>
+                <h1>我是footer</h1>
+                <i class="icon icon-facebook-red "></i>
+                <i class="icon icon-facebook "></i>
+                <i class="icon icon-flickr"></i>
+                <i class="icon icon-pc "></i>
+              </footer>             
+</body>
+</html>
