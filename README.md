@@ -1,4 +1,3 @@
-Webpack 範例初始
+Webpack範例初始
 ===
-##
-![Screenshot](webpack-logo.png | width=200)
+ <img width="200" height="200" src="webpack-logo.png">
