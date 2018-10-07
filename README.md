@@ -3,7 +3,7 @@ Webpack初始檔
  <img width="200" height="200" src="webpack-logo.png">
  
 ## 10/06 DreamForest - webpack
-(與Webpack同行 Google簡報)[https://docs.google.com/presentation/d/1SZe9LyKxekhsYxvgW5pmlVm1Fv83huWyV6eYeAFMsLo/edit#slide=id.g4388dd36c7_0_43]
+[10/05 台中前端 x 夢森林 與Webpack同行 Google簡報](https://docs.google.com/presentation/d/1SZe9LyKxekhsYxvgW5pmlVm1Fv83huWyV6eYeAFMsLo/edit#slide=id.g4388dd36c7_0_43)
 ### Css Purge
 用不到的樣式，優化，排除沒用到的Css class 
 
