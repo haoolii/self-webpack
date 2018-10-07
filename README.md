@@ -3,14 +3,14 @@ Webpack初始檔
  <img width="200" height="200" src="webpack-logo.png">
  
 ## 說明
-這是參與課程活動，產出的一Webpack初始檔，這樣以後使用較方便，這是個範本。也需要也可以自己取用。
+這是參與課程活動，產出的一Webpack初始檔，這樣以後使用較方便，這是個範本。也需要也可以自己取用。
 
 ## 10/06 DreamForest - webpack
 [10/05 台中前端 x 夢森林 與Webpack同行 Google簡報](https://docs.google.com/presentation/d/1SZe9LyKxekhsYxvgW5pmlVm1Fv83huWyV6eYeAFMsLo/edit#slide=id.g4388dd36c7_0_43)
 ## CSS Purge
 [CSS Purge官網](http://www.csspurge.com/)
 
-清除無使用到的CSS樣式，優化整體專案Loading速度，Bootstrap過於肥大的CSS包可以使用。
+清除無使用到的CSS樣式，優化整體專案Loading速度，Bootstrap過於肥大的CSS包可以使用。
 
 ## Css Sprit
 webpack協助合併圖片
