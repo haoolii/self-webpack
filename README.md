@@ -2,26 +2,35 @@ Webpack初始檔
 ===
  <img width="200" height="200" src="webpack-logo.png">
  
+## 說明
+這是參與課程活動產出的一Webpack初始檔，這樣以後使用較方便，這是個範本。也需要也可以自己取用。
+
 ## 10/06 DreamForest - webpack
 [10/05 台中前端 x 夢森林 與Webpack同行 Google簡報](https://docs.google.com/presentation/d/1SZe9LyKxekhsYxvgW5pmlVm1Fv83huWyV6eYeAFMsLo/edit#slide=id.g4388dd36c7_0_43)
-### Css Purge
-用不到的樣式，優化，排除沒用到的Css class 
+## CSS Purge
+[CSS Purge官網](http://www.csspurge.com/)
 
-### Css Sprit
+清除無使用到的CSS樣式，優化整體專案Loading速度，Bootstrap過於肥大的CSS包可以使用。
+
+## Css Sprit
 webpack協助合併圖片
 
-### Grunt/Gulp
-自動化
+## Grunt/Gulp
+納入比較原因為可自動化打包以及自動化測試，Webpack著重在打包，所以並不細談。
+Jest、Mocha等等
 
 ## Webpack
-ohh 套件相依？
-單獨引入載入順序問題、Loading太慢、減少請求次數
-圖片Base64轉檔
+防止套件相依造web在載入時要特別注意Script引入順序，不然可能會報錯或是產生非預期結果。且請求伺服器次數將會提升，也可能造成阻塞。
 
-index.js 會放引入的所有東西
+圖片Base 64可提升網頁載入圖片速度，將圖片轉為字串傳送較能加快速度，但因舊瀏覽器部分支援問題，還是得慎用。
+*另外先前我認為圖片實際在瀏覽器讀取時，也是透過壓縮編碼，為何透過Base64會比較優化呢？*
+
+### 架構
+
+src/index.js 會放引入的所有東西scss那些543，
 dist 最後輸出
 
-webpack cli 4.0以後才需要安裝？
+webpack-cli 4.0以後才需要安裝
 
 npm -D = devDependencies
 npm package 有分 Dependencies 和 devDependencies
@@ -91,5 +100,5 @@ npm i -D html-webpack-plugin
 
 麵包屑導覽列???????
 
-###test2
-
+### 備註
+參考簡報可了解有部分流程，像是CSS可以直接從bundle.js注入，並沒有特別獨立出CSS，我是不覺得這樣有什麼不好？
