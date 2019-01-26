@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --config webpack.dev.js",   
+    "dev": "webpack-dev-server --mode development --config webpack.dev.js",
     "prod": "webpack --mode production --config webpack.prod.js"
   },
   "keywords": [],
@@ -20,7 +20,7 @@
     "ejs-loader": "^0.3.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "image-webpack-loader": "^4.3.1",
+    "image-webpack-loader": "^4.6.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
@@ -29,8 +29,8 @@
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9",
+    "webpack-dev-server": "^3.1.11",
     "webpack-merge": "^4.1.4",
-    "webpack-spritesmith": "^0.5.3"
+    "webpack-spritesmith": "^1.0.0"
   }
 }
